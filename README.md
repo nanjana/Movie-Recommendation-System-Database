@@ -10,24 +10,25 @@ Database Design: Designed a normalized database schema with relationships betwee
 4. Data Analysis: Analyzed user rating data to generate insights into trends, top movies by rating, genre performance, and director success.
 
 ### Tools & Technologies
-SQL: PostgreSQL for database management and querying.
-Tableau: For data visualization and dashboard creation.
-Python : For data cleaning and preparation.
-Kaggle Dataset: Movie dataset from Kaggle [https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset].
+1. SQL: PostgreSQL for database management and querying.
+2. Tableau: For data visualization and dashboard creation.
+3. Python: For data cleaning and preparation.
+4. Kaggle Dataset: Movie dataset from Kaggle [https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset].
 
 ### Project Structure
-SQL/: Contains the SQL scripts for database schema creation, data insertion, and queries.
-schema.sql: Defines the database schema (tables, relationships, constraints).
-insert_data.sql: SQL queries to insert data into the tables.
-queries.sql: Various analytical queries for data retrieval and insights.
-Visualizations/: Contains reports and dashboards created in Power BI/Tableau.
-movie_dashboard.twbx: Power BI/Tableau files for data visualization.
+1. SQL/: Contains the SQL scripts for database schema creation, data insertion, and queries.
+2. schema.sql: Defines the database schema (tables, relationships, constraints).
+3. insert_data.sql: SQL queries to insert data into the tables.
+4. queries.sql: Various analytical queries for data retrieval and insights.
+5. Visualizations/: Contains reports and dashboards created in Power BI/Tableau.
+6. movie_dashboard.twbx: Power BI/Tableau files for data visualization.
 
 ### Key Insights & Visualizations
-Top 10 Highest Rated Movies: Analyzed user ratings to identify the top 10 movies.
-Most Popular Genres Over Time: Analyzed the number of movies produced in each genre per year.
-Top Directors by Average Movie Rating: Visualized directors with the highest average movie ratings.
-Future Enhancements
-Add user recommendations based on ratings.
-Implement genre-based filtering in visualizations.
-Integrate machine learning models to predict movie success based on past data.
+1. Top 10 Highest Rated Movies: Analyzed user ratings to identify the top 10 movies.
+2. Most Popular Genres Over Time: Analyzed the number of movies produced in each genre per year.
+3. Top Directors by Average Movie Rating: Visualized directors with the highest average movie ratings.
+
+### Future Enhancements
+1. Add user recommendations based on ratings.
+2. Implement genre-based filtering in visualizations.
+3. Integrate machine learning models to predict movie success based on past data.
